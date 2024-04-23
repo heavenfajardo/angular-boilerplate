@@ -7,4 +7,4 @@ export class HomeComponent {
     account = this.accountService.accountValue;
 
     constructor(private accountService: AccountService) { }
-}
+} 
