@@ -16,5 +16,5 @@ import { AddEditComponent } from './add-edit.component';
         ListComponent,
         AddEditComponent
     ]
-})
+}) 
 export class AccountsModule { }

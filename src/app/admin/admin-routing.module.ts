@@ -15,11 +15,11 @@ const routes: Routes = [
             { path: '', component: OverviewComponent },
             { path: 'accounts', loadChildren: accountsModule }
         ]
-    }
+    }  
 ];
-
+ 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
-export class AdminRoutingModule { }
+export class AdminRoutingModule { } 

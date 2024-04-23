@@ -18,5 +18,5 @@ import { OverviewComponent } from './overview.component';
         LayoutComponent,
         OverviewComponent
     ]
-})
-export class AdminModule { }
+}) 
+export class AdminModule { } 

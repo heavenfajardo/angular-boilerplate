@@ -14,7 +14,7 @@
             <div *ngIf="submitted && f.title.errors" class="invalid-feedback">
                 <div *ngIf="f.title.errors.required">Title is required</div>
             </div>
-        </div>
+        </div> s 
         <div class="form-group col-5">
             <label>First Name</label>
             <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
