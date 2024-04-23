@@ -6,4 +6,4 @@ export function appInitializer(accountService: AccountService) {
             .subscribe()
             .add(resolve);
     });
-}
+} 

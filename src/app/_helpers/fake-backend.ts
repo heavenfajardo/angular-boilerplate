@@ -19,7 +19,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
         const alertService = this.alertService;
 
         return handleRoute();
-
+ 
         function handleRoute() {
             switch (true) {
                 case url.endsWith('/accounts/authenticate') && method === 'POST':
