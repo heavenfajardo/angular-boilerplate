@@ -19,7 +19,7 @@ import { HomeComponent } from './home';
         ReactiveFormsModule,
         HttpClientModule,
         AppRoutingModule
-    ],
+    ], 
     declarations: [
         AppComponent,
         AlertComponent,

@@ -21,7 +21,7 @@ export class UpdateComponent implements OnInit {
         private accountService: AccountService,
         private alertService: AlertService
     ) { }
-
+ 
     ngOnInit() {
         this.form = this.formBuilder.group({
             title: [this.account.title, Validators.required],
